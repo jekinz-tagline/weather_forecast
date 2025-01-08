@@ -14,10 +14,9 @@ class WeatherClass(MethodView):
         # URL to fetch hourly and daily data
         url = (
             "http://my.meteoblue.com/packages/basic-1h_basic-day"
-            "?lat=47.56&lon=7.57"
-            "&temperature=F"
+            "?lat=28.583830&lon=-80.582953"
             "&history_days=4"
-            "&forecast_days=5"
+            "&forecast_days=8"
             "&temperature=F"
             "&apikey=uxSEMWd625F9VR3K"
         )
